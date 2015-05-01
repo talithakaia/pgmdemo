@@ -1,5 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="comment_comment" id="39" x="244" y="70">
     <field name="TEXT">rrlluu</field>
+    <next>
+      <block type="robot_delay" id="41" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="48">
+            <field name="NUM">500</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="58"></block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
